@@ -1,25 +1,54 @@
-# "HTML Project for Beginners"
+# HTML Project for Beginners - The Little Taco Shop Website
 
-✅ [Check out my YouTube Channel with all of my tutorials](https://www.youtube.com/DaveGrayTeachesCode).
+This is a practice project of a html tutorial on YouTube Channel - Dave Gray. I use the knowledge I have gained from the [HTML for Beginners](https://www.youtube.com/playlist?list=PL0Zuz27SZ-6OlAwitnFUubtE93DO-l0vu) tutorial series to build this website for The Little Taco Shop. 
 
-This repository shares the starter code for the [YouTube Tutorial](https://youtu.be/T5PD8ofhiug). 
+## Overview
 
-**Your Challenge:** Utilize the knowledge you have gained from the [HTML for Beginners](https://www.youtube.com/playlist?list=PL0Zuz27SZ-6OlAwitnFUubtE93DO-l0vu) tutorial series to build a website for The Little Taco Shop. 
+### Screenshot
 
-**Directions:**
+![screenshot-index](./img/Screenshot-index.png)
+![screenshot-hours](./img/Screenshot-hours.png)
+![screenshot-contact](./img/Screenshot-contact.png)
 
-- There are images of the 3 web pages you need to build in the examples folder. Use them as references for what you build.
+## My process
 
-- You should name your files: index.html, hours.html, and contact.html
+### Built with
 
-- There is minimal CSS already available in css/styles.css. You need to link that file to your HTML files. 
+- Semantic HTML5 markup
+- HTML5 Table
+- HTML5 Form
+- HTML5 Description List
 
-- All images are provided in the img folder.
+### What I learned
 
-- If you need to find taco emojis, try [Emojipedia](https://emojipedia.org/taco/). 
+- use "figure" element
+```html
+<figure>
+    <img src="img/tacos_and_drink_400x267.png" alt="A picture of tacos and drink" title="Tacos and a Drink" width="400" height="267">
+    <figcaption>Tacos and a Drink</figcaption>
+</figure>
+```
 
-- A favicon is already included. You'll need to add it in the head section of each page.
+- use "details" & "cite" element
+```html
+<details>
+    <summary>What did tacos first appear in the United States</summary>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit officia natus cum iure rem maiores error magni velit earum placeat? (Source: <cite><a href="https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/" target="_blank">Smithsonian Magazine</a></cite>)
+    </p>
+</details>
+```
 
-### Academic Honesty
+- use "description list" & "time" element
+```html
+<dl>
+    <dt>Sunday-Thursday</dt>
+    <dd><time datetime="11:00">11am</time>-<time datetime="21:00">9pm</time></dd>
+    <dt>Friday-Saturday</dt>
+    <dd><time datetime="11:00">11am</time>-<time datetime="23:00">11pm</time></dd>
+</dl>
+```
 
-**DO NOT COPY FOR AN ASSIGNMENT** - Avoid plagiargism and adhere to the spirit of this [Academic Honesty Policy](https://www.freecodecamp.org/news/academic-honesty-policy/).
+## Tutorial Data
+
+- [Tutorial Video](https://www.youtube.com/playlist?list=PL0Zuz27SZ-6OlAwitnFUubtE93DO-l0vu)
+- [Tutorial Source Code](https://github.com/gitdagray/html_course)
